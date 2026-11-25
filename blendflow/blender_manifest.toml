@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+id = "blendflow"
+version = "0.6.3"
+name = "BlendFlow"
+tagline = "Inspect scene issues without changing your assets"
+maintainer = "BlendFlow contributors"
+type = "add-on"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Scene"]
+
+[permissions]
+files = "Read textures and write previews, models and JSON reports"
+
+
